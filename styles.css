@@ -1,0 +1,29 @@
+body {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+button {
+     width: 60px;
+     height: 60px;
+    padding: 0px;
+}
+
+button img {
+    display: flex;
+    margin: 0 auto;
+    width: 20px;
+    height: 20px;
+}
+
+.container {
+    display: inline-block;
+    padding-bottom: 0px;
+    background-color: black !important;
+}
+
+button:disabled {
+    background-color: #F0F0F0;
+    border-color: gray;
+    
+}
